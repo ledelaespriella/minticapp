@@ -7,7 +7,7 @@ const Todolist = ({ items }) => {
             <p>Todo List</p>
             <ul>
                 {
-                    items.map(e => (<TodoItem title={e.text} style={{ color: e.color }} />))
+                    items.map((e) => (<TodoItem title={e.text} style={{ color: e.color }} />))
                 }
             </ul>
         </div>
