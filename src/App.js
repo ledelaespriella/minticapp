@@ -45,6 +45,7 @@ function App() {
     value.map((e) => {
       e.state = true;
       e.color = 'green';
+      return e;
     });
     setItems([...value]);
   };
@@ -54,6 +55,7 @@ function App() {
     value.map((e) => {
       e.state = false;
       e.color = 'blue';
+      return e;
     });
     setItems([...value]);
   };
